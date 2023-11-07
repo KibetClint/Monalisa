@@ -114,6 +114,7 @@ body{
     align-items: center;
     justify-content: center;
     margin: 1%;
+   
 }
 
 .box1{
@@ -170,5 +171,161 @@ body{
 
 .page3{
     height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.page3 .flex-items{
+    height: 80%;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    margin: 1%;
+}
+
+.page3 .box1{
+    height: 100%;
+    width: 20%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: aqua;
+}
+
+.page3 .box2{
+    height: 100%;
+    width: 20%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: aqua;
+}
+
+.page3 .box3{
+    height: 100%;
+    width: 20%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: aqua;
+}
+
+.page3 .box4{
+    height: 100%;
+    width: 20%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: aqua;
+}
+
+.page3 .con1{
+    height: 60%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: aliceblue;
+}
+
+.page3 .flex-items h1{
+    font-size: 30px;
+}
+.page3 p{
+    font-size: 20px;
+    
+}
+
+.page3 .con1 p{
+    border-bottom: 1px solid black;
+    border-width: .1cm;
+}
+.page3 button{
+    height: 8%;
+    width: 50%;
+    border-radius: 40px;
+    border: none;
+}
+.page4{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.page4 .flex-items{
+    height: 85%;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+   
+}
+
+.page4 .box1{
+    height: 45%;
+    width: 20%;
+    background-color: blueviolet;
+    margin: 1%;
+}
+.page4 .box2{
+    height: 45%;
+    width: 20%;
+    background-color: blueviolet;
+    margin: 1%;
+}
+.page4 .box3{
+    height: 45%;
+    width: 20%;
+    background-color: blueviolet;
+    margin: 1%;
+}
+.page4 .box4{
+    height: 45%;
+    width: 20%;
+    background-color: blueviolet;
+    margin: 1%;
+}
+.page4 .box5{
+    height: 45%;
+    width: 20%;
+    background-color: blueviolet;
+    margin: 1%;
+}
+
+.page4 .box6{
+    height: 45%;
+    width: 20%;
+    background-color: blueviolet;
+    margin: 1%;
+}
+
+.page4 .box7{
+    height: 45%;
+    width: 20%;
+    background-color: blueviolet;
+    margin: 1%;
+}
+
+.page4 .box8{
+    height: 45%;
+    width: 20%;
+    background-color: blueviolet;
+    margin: 1%;
+}
+
+.page4 img{
+    height: 100%;
     width: 100%;
 }
