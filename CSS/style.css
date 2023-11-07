@@ -1,0 +1,168 @@
+body{
+    margin: 0%;
+    padding: 0%;
+}
+
+.page1{
+    height: 100vh;
+    width: 100%;
+   
+}
+
+.navbar{
+    height: 10%;
+    width: 100%;
+    background-color: rgb(15, 15, 71);
+    background-size: cover;
+}
+
+.list{
+    display: flex;
+    list-style: none;
+    justify-content: center;
+    align-items: center;
+}
+
+.list li{
+    font-size: 20px;
+    color: aquamarine;
+    font-style: oblique;
+    font-weight: 600;
+    margin: 1%;
+    margin-top: 1%;
+}
+
+.monalisa{
+    height: 90%;
+    width: 100%;
+    background-image: url(/Images/WhatsApp\ Image\ 2023-10-22\ at\ 17.55.17\(1\).jpeg);
+    background-size: contain;
+    background-size: auto;
+    display: flex;
+    flex-direction: column;    
+    align-items: center;
+    justify-content: center;
+}
+
+.downbar{
+    height: 20%;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    background-color: rgb(10, 10, 46);
+}
+
+.downbar .container1{
+    height: 100%;
+    width: 33.33%;
+    background-color: aqua;
+}
+
+.downbar .container2{
+    height: 100%;
+    width: 33.33%;
+    background-color: blue;
+}
+
+.downbar .container3{
+    height: 100%;
+    width: 33.33%;
+    background-color: white;
+}
+
+
+.monalisa h1{
+    font-size: 67px;
+    color: rgb(211, 202, 202);
+}
+
+.monalisa p{
+    font-size: 30px;
+    color: white;
+    text-align: center;
+}
+
+.monalisa button{
+    height: 10%;
+    width: 10%;
+    background-color: coral;
+    border-radius: 20px;
+    border: none;
+}
+
+.page2{
+    height: 120vh;
+    width: 100%;
+    
+}
+
+.page2 .header{
+    height: 10%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.flex-items{
+    height: 80%;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    margin: 1%;
+}
+
+.box1{
+    height: 50%;
+    width: 30%;
+    margin: 1%;
+}
+
+.box2{
+    height: 50%;
+    width: 30%;
+    margin: 1%;
+}
+
+.box3{
+    height: 50%;
+    width: 30%;
+    margin: 1%;
+}
+
+.box4{
+    height: 50%;
+    width: 30%;
+    margin: 1%;
+}
+
+.box5{
+    height: 50%;
+    width: 30%;
+    margin: 1%;
+}
+
+.box6{
+    height: 50%;
+    width: 30%;
+    margin: 1%;
+}
+
+.flex-items img{
+    height: 80%;
+    width: 100%;
+}
+
+.flex-items h1{
+    font-size: 15px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    
+}
+
+.flex-items p{
+    font-size: 10px;
+    flex-wrap: wrap;
+}
