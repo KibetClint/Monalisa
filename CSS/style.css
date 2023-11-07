@@ -329,3 +329,39 @@ body{
     height: 100%;
     width: 100%;
 }
+
+.page5{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.page5 .flex-items{
+    height: 80%;
+    width: 100%;
+    flex-wrap: wrap;
+}
+
+.page5 .box1{
+    height: 70%;
+    width: 30%;
+}
+
+.page5 .box2{
+    height: 70%;
+    width: 30%;
+}
+
+.page5 .box3{
+    height: 70%;
+    width: 30%;
+}
+
+
+.page5 .flex-items img{
+    height: 100%;
+    width: 80%;
+}
