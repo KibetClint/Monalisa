@@ -12,8 +12,9 @@ body{
 .navbar{
     height: 10%;
     width: 100%;
-    background-color: rgb(15, 15, 71);
+    background-color: skyblue;
     background-size: cover;
+    position: fixed;
 }
 
 .list{
@@ -25,7 +26,7 @@ body{
 
 .list li{
     font-size: 20px;
-    color: aquamarine;
+    color: grey;
     font-style: oblique;
     font-weight: 600;
     margin: 1%;
@@ -165,4 +166,9 @@ body{
 .flex-items p{
     font-size: 10px;
     flex-wrap: wrap;
+}
+
+.page3{
+    height: 100vh;
+    width: 100%;
 }
